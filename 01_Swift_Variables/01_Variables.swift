@@ -35,8 +35,10 @@ print(asal)
 // jadi sebenernya untuk menulis tipe data secara detail adalah preferensi masing masing
 // contoh penulisan tipe data secara detail:
 let tinggi: Int = 178
+let panjang = 203
 
 print(tinggi)
+print(panjang)
 
 
 // optionals
