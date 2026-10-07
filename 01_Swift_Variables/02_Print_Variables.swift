@@ -19,4 +19,4 @@ print("nama depan saya adalah \(firstName)", "nama belakang saya adalah \(lastNa
 
 // dibawah ini adalah implementasi dari terminator.
 // terminator adalah karakter yang digunakan untuk mengakhiri nilai yang dicetak.
-print("nama depan saya adalah \(firstName)", terminator: " , ")
+print("nama depan saya adalah \(firstName)", terminator: " . ")
