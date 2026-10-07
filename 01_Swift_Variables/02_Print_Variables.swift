@@ -15,8 +15,7 @@ print("nama depan saya adalah \(firstName) dan nama belakang saya adalah \(lastN
 
 // dibawah ini adalah implementasi dari separator.
 // separator adalah karakter yang digunakan untuk memisahkan nilai yang dicetak
-print("nama depan saya adalah \(firstName)", "nama belakang saya adalah \(lastName)", separator: " dan ")
-
+print(firstName, lastName, separator: " dan ")
 // dibawah ini adalah implementasi dari terminator.
 // terminator adalah karakter yang digunakan untuk mengakhiri nilai yang dicetak.
 print("nama depan saya adalah \(firstName)", terminator: " . ")
