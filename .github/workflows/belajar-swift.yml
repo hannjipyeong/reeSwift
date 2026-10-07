@@ -6,18 +6,18 @@ on:
   pull_request:
     branches: [ "main" ]
 
-  jobs:
-    check-code:
-      runs-on: macos-latest
+jobs:
+  check-code:
+    runs-on: macos-latest
 
-      steps:
-        # 1. Mengambil kode kamu dari GitHub
-        - uses: actions/checkout@v4
+    steps:
+      # 1. Mengambil kode kamu dari GitHub
+      - uses: actions/checkout@v4
 
-        # 2. Mencari dan mengecek semua file .swift
-        - name: Cek Error Swift
-          run: |
-            find . -name "*.swift" | while read file; do
+      # 2. Mencari dan mengecek semua file .swift
+      - name: Cek Error Swift
+        run: |
+          find . -name "*.swift" | while read file; do
             echo "Mengecek file: $file"
             # swiftc -typecheck hanya mengecek kebenaran sintaks tanpa menjalankan kodenya
             swiftc -typecheck "$file"
