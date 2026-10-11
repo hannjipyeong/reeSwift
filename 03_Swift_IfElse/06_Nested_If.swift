@@ -31,6 +31,3 @@ if ieltsScore >= 0 && ieltsScore <= 100 {
 } else {
     print("score nya gamasuk, pls ujian ulang")
 }
-
-
-
